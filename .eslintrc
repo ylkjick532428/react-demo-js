@@ -1,0 +1,18 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "airbnb", "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["warn", {
+      "singleQuote": true,
+      "semi": true,
+      "trailingComma": "none"
+    }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "ignorePatterns": [
+    "src/index.js"
+  ]
+}
